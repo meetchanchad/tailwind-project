@@ -13,12 +13,12 @@
     <div class="container mx-auto px-2">
 
         <!-- Navbar -->
-        <nav class="bg-slate-500 flex justify-around align-middle py-10">
+        <nav class=" flex justify-between align-middle items-center py-10">
             <div>
-                <h1 class="text-xl text-[#FC552F]">MUAI</h1>
+                <h1 class="text-3xl text-[#FC552F] font-semibold">MUAI</h1>
             </div>
-            <div>
-                <ul class="flex gap-10">
+            <div class="hidden md:block">
+                <ul class="flex gap-16 text-[#6E727E]">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Princing</a></li>
                     <li><a href="#">About</a></li>
@@ -26,11 +26,14 @@
                 </ul>
             </div>
             <div>
-                <button class="bg-[#FC552F] py-2 px-5 rounded">
+                <button
+                    class="hidden md:block bg-[#FC552F] text-white py-4 px-5 w-[166px] h-[54px] rounded-se-[50px] rounded-es-[50px] rounded-ss-[15px] rounded-ee-[15px] ">
                     Get Started
                 </button>
+                <div class="md:hidden block"><img src="./assets/nav-icon.png" alt=""></div>
             </div>
         </nav>
+
     </div>
 
 
