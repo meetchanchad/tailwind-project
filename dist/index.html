@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/input.css">
     <title>Tailwind Full</title>
 </head>
 
@@ -13,7 +14,7 @@
     <div class="container mx-auto px-2">
 
         <!-- Navbar -->
-        <nav class=" flex justify-between align-middle items-center py-10">
+        <nav class=" flex justify-between align-middle items-center p-10">
             <div>
                 <h1 class="text-3xl text-[#FC552F] font-semibold">MUAI</h1>
             </div>
@@ -33,6 +34,50 @@
                 <div class="md:hidden block"><img src="./assets/nav-icon.png" alt=""></div>
             </div>
         </nav>
+
+        <!-- Front Page -->
+        <div class="py-24 px-5 md:px-10 lg:px-12">
+
+            <div
+                class="bg-[#07070C] rounded-[70px] flex lg:flex-col justify-center align-middle items-center pt-24 lg:pb-0 pb-24 px-5 lg:px-0">
+
+                <div class=" hidden md:block lg:hidden">
+                    <div class="w-[315px]"><img src="/dist/assets/front-img-md.png" alt=""></div>
+                </div>
+
+                <div class="flex flex-col gap-8">
+
+                    <div
+                        class="text-white text-[36px] md:text-[32px] lg:text-[48px] text-center md:text-start lg:text-center">
+                        <h1>Simplify your work <br>with AI tool</h1>
+                    </div>
+                    <div class="text-[#F4F4F6] text-[14px] lg:text-[18px] text-center md:text-start lg:text-center">
+                        <p>Unleash the power of AI within Brainwave. Upgrade your
+                            productivity
+                            with Brainwave,<br> the
+                            open AI chat app.</p>
+                    </div>
+                    <div class="flex justify-center align-middle">
+                        <div class="flex flex-col lg:flex-row">
+                            <button
+                                class="bg-[#FC552F] flex items-center text-white rounded-ss-[15px] rounded-ee-[15px] rounded-se-[50px] rounded-es-[50px] py-4 px-5 h-[63px] mb-5">Get
+                                Started
+                                Free <img src="/dist/assets/arrow.png" alt=""></button>
+                            <button
+                                class="text-[#FC552F] border border-[#FC552F] rounded-ss-[15px] rounded-ee-[15px] rounded-se-[50px] rounded-es-[50px] py-4 px-5 h-[63px] w-[194px]">Explore
+                                Feature</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hidden lg:block">
+                    <div><img src="/dist/assets/front-img.png" class="rounded-[70px]" alt=""></div>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
